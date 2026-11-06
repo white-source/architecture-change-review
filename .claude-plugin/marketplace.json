@@ -1,0 +1,23 @@
+{
+  "name": "architecture-change-review",
+  "owner": {
+    "name": "white-source"
+  },
+  "plugins": [
+    {
+      "name": "architecture-change-review",
+      "source": "./",
+      "version": "2.0.1",
+      "description": "Incremental architecture-change checkpoints for long coding tasks: phase-based offline HTML reports with evidence.",
+      "displayName": "Architecture Change Review",
+      "displayName_i18n": {
+        "zh-CN": "架构变更复盘"
+      },
+      "description_i18n": {
+        "en": "Incremental architecture-change checkpoints for long coding tasks: phase-based offline HTML reports covering system impact, business outcomes crossed with technical implementation, before/after core flows, and the changed-file tree.",
+        "zh-CN": "长任务中的增量架构变更复盘：按阶段生成离线 HTML 报告——系统影响、业务成果与技术实现交叉、核心 Before/After 链路、修改文件树与风险。"
+      },
+      "category": "developer-tools"
+    }
+  ]
+}

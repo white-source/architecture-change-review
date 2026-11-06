@@ -3,7 +3,7 @@ name: architecture-change-review
 description: Generate a concise evidence-backed HTML architecture change report during long coding tasks. Trigger after 5-10 effective files, 1000-2000 changed lines, feature milestones, or architecture/API/schema/security changes. Explain top-down module impact, business outcomes crossed with technical implementation, the main before/after flow, core differences, and changed-file tree. Use after coding milestones, before delivery, or on explicit review requests; not for pure Q&A.
 compatibility: Requires Git and Python 3.9+. Works as a portable Agent Skill in Codex, Claude Code, ZCode and DeepSeek Harness.
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
 ---
 
 # Architecture Change Review
