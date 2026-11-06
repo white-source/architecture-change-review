@@ -23,6 +23,17 @@ https://github.com/white-source/architecture-change-review
 /plugin install architecture-change-review@architecture-change-review
 ```
 
+### 通用 CLI：npx skills add（Codex / Cursor / Gemini CLI 等 22+ Agent）
+
+```bash
+npx skills add white-source/architecture-change-review                # 项目级（装到 .agents/skills/）
+npx skills add white-source/architecture-change-review -g             # 全局（用户级）
+npx skills add white-source/architecture-change-review -y             # 非交互安装
+npx skills update                                                     # 批量更新已装 Skill
+```
+
+安装到 `.agents/skills/`（Amp、Codex、Cursor、Droid、Gemini CLI 等通用位置），并自动为 Claude Code 等客户端建立符号链接。已实测可用。
+
 ### Codex / DeepSeek / 其它 Agent（安装器）
 
 ```bash
